@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/alertDialog"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:backgroundTint="#C82D40"
+        android:text="Alert Dialog"/>
+
+    <Button
+        android:id="@+id/customDialog"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:backgroundTint="#C82D40"
+        android:text="Custom Dialog"/>
+
+    <Button
+        android:id="@+id/fragmentDialog"
+        android:backgroundTint="#C82D40"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="Fragmen Dialog"/>
+
+    <Button
+        android:id="@+id/datePickerDialog"
+        android:layout_width="350dp"
+        android:backgroundTint="#C82D40"
+        android:textSize="20sp"
+        android:layout_height="70dp"
+        android:text="DatePicker Dialog"/>
+
+    <Button
+        android:id="@+id/timePickerDialog"
+        android:layout_width="350dp"
+        android:backgroundTint="#C82D40"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="TimePicker Dialog"/>
+
+    <Button
+        android:textSize="20sp"
+        android:id="@+id/bottomSheepDialog"
+        android:layout_width="350dp"
+        android:backgroundTint="#C82D40"
+        android:layout_height="70dp"
+        android:text="BottomSheep Dialog"/>
+
+    <Button
+        android:id="@+id/snackbar"
+        android:layout_width="350dp"
+        android:backgroundTint="#C82D40"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:text="Snackbar "/>
+
+</LinearLayout>
